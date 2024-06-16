@@ -19,7 +19,7 @@ Le code est modifiable et compilable sous VS Code dans l’environnement de dév
 ### Configuration
 1. Clonez le projet :
 ```
-  git clone --recurse-submodules https://github.com/DADDesign-Projects/DEMO_DaisyGFX_ST7735 VotreDossier
+  git clone --recurse-submodules https://github.com/DADDesign-Projects/DEMO_DaisyGFX_ST7789 VotreDossier
 ```
    
 3. Le fichier Makefile est à adapter en fonction de l’emplacement des librairies : 
