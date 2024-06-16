@@ -1,5 +1,5 @@
-# DEMO_DaisyGFX_ST7735
-Demo TFT graphical display library for Daisy Seed T7735 driver
+# DEMO_DaisyGFX_ST7789
+Demo TFT graphical display library for Daisy Seed T7789 driver
 
 ## Author
 DAD Design
