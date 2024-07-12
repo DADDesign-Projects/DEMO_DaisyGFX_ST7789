@@ -29,8 +29,8 @@
 // Configuration des GPIO utilisés par le SPI
 #define TFT_MOSI D10
 #define TFT_SCLK D8
-#define TFT_DC   D21
-#define TFT_RST  D20
+#define TFT_DC   D15
+#define TFT_RST  D16
 
 // Définition de la taille des blocs utilisés pour une mise à jour partielle de l'écran
 //   -> On me transmet à l'écran que les blocs qui ont été modifiés

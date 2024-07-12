@@ -47,11 +47,22 @@ int main(void)
 	uint16_t TextWidth = __Display.getTextWidth("Hello World");
 	uint16_t Width = 319;
 	uint16_t Height = 239;
+	cImage ImagePap(100,100, TypeImage::B8G8R8, Pap_map);
 
 	while(1) {
 	// Image
 	__Display.setRotation(Rotation::Degre_90);
-	__Display.drawR8G8B8Image(25, 15, 100, 100, Pap_map);
+	__Display.drawImage(25, 15, ImagePap);
+	__Display.FlushFrame();
+	System::Delay(5000);
+	
+	// Alpha
+	__Display.setRotation(Rotation::Degre_90);
+	Width = 319;
+	Height = 239;
+	__Display.drawFillCircle(90,160,75,cColor(255, 0, 0, 100));
+	__Display.drawFillCircle(160,120,75,cColor(0, 255, 0, 100));
+	__Display.drawFillCircle(230,80,75,cColor(0, 0, 255, 100));
 	__Display.FlushFrame();
 	System::Delay(5000);
 	
